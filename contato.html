@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="corpo">
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo do site" id="logo">
+        </a>
+        <nav>
+            <button id="btn-mobile"><img src="img/hamburger.png" alt="Icone Menu Hamburguer" id="hamburger"></button>
+            <ul id="menu">
+                <li><a href="index.html" class="item-menu">Home</a></li>
+                <li><a href="smartphones.html" class="item-menu">Smartphones</a></li>
+                <li><a href="tutoriais.html" class="item-menu">Tutoriais</a></li>
+                <li><a href="contato.html" class="item-menu">Contato</a></li>
+                <li><a href="equipe.html" class="item-menu">Equipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <main class="main">
+            <section id="contato" class="container">
+                <h2>Entre em Contato</h2>
+                <form action="processar_formulario.php" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
