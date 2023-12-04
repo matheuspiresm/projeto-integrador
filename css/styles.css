@@ -255,8 +255,8 @@ footer {
   .membros {
     margin: 25px auto;
   }
-  .membros:nth-child(5) {
-    grid-column-end: span 2;
+  .membros:nth-child(3) {
+    grid-column-end: span 5;
   }
 }
 
@@ -271,7 +271,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1199px) {
+/* @media screen and (min-width: 1025px) and (max-width: 1199px) {
   .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -279,7 +279,7 @@ footer {
   .membros {
     margin: 25px auto;
   }
-}
+} */
 
 
 /************************Pagina Contato*******************************/
