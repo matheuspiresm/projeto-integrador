@@ -1,73 +1,52 @@
-
-/************************Pagina Contato*******************************/
-
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-    #contato {
-      background-color: #1d2228;
-      color: #ffffff;
-      padding: 1.25rem; 
-      border-radius: 0.5rem; 
-      height: 40rem;
-      width: 80%; 
-      max-width: 37.5rem;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 8px;
-  }
-  
-  input,
-  textarea {
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    background-color: #1d2228;
-    color: #ffffff;
-  }
-  
-  button {
-    padding: 12px;
-    background-color: #ffffff;
-    color: #1d2228;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  input:hover,
-  textarea:hover,
-  button:hover {
-      border-color: #ffffff;
-  }
-  
-  button:hover {
-      background-color: #1d2228;
-      color: #ffffff;
-  }
-  
-  input,
-  textarea,
-  button {
-      transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-  }
-  @media screen and (min-width: 1025px) and (max-width: 1199px) {
-    #contato {
-        width: 90%; 
-        max-width: 100%;
-    }
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 15px;
+}
+
+#contato {
+  background-color: #1d2228;
+  color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  height: 40rem;
+  width: 80%;
+  max-width: 37.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: #1d2228;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #1d2228;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}

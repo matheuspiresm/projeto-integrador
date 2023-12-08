@@ -4,6 +4,7 @@
   font-family: lexend, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .corpo {
@@ -57,11 +58,22 @@ header {
   display: none;
 }
 
+footer {
+  height: 50px;
+  background-color: #1d2228;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
 
 @media screen and (max-width: 1024px) {
   #logo {
     display: none;
   }
+
   #menu {
     display: block;
     position: absolute;
@@ -73,6 +85,7 @@ header {
     overflow-x: hidden;
     z-index: 1;
   }
+
   nav.active #menu {
     height: 100vh;
   }
@@ -81,11 +94,13 @@ header {
     width: 100%;
     text-align: left;
   }
+
   #menu a {
     padding: 10px;
     margin: 0 15px;
     border-bottom: solid 1px #ffffff1c;
   }
+
   #btn-mobile {
     display: flex;
     padding: 8px 10px;
@@ -96,6 +111,7 @@ header {
     color: #fff;
     gap: 8px;
   }
+
   #hamburger {
     width: 40px;
     padding: 0;
