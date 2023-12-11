@@ -1,4 +1,3 @@
-// Dados das noticias
 const noticias = [
 
   {
@@ -20,10 +19,8 @@ const noticias = [
   }
 ];
 
-// Conteudo da section materias
 const content = document.getElementById("materias");
 
-// Funcao para criação das noticias
 function criarNoticias(noticia){
 const div = document.createElement("div");
 div.classList.add("materia__menor");
@@ -44,8 +41,6 @@ const p = document.createElement("p");
 p.classList.add("materia__texto");
 p.textContent = noticia.descricao
 
-
-// Adicionando elementos criados ao conteudo principal
 div.appendChild(img);
 div.appendChild(descricaoMenor);
 descricaoMenor.appendChild(h3);
@@ -55,7 +50,6 @@ return div;
 
 };
 
-// Adiciona as notícias ao conteúdo
 for (let noticia of noticias) {
   content.appendChild(criarNoticias(noticia));
 }
