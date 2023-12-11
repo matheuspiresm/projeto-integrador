@@ -1,5 +1,8 @@
 console.log("wassup");
 
+
+/*JS do menu*/
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu() {
