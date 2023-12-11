@@ -1,78 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <script src="js/scripts.js" defer></script>
+    <title>Home</title>
 </head>
-<body>
+
+<body class="body_">
     <header>
-        <img src="/imagens techpunk/logo.jpg" alt="logo techpunk">
-        <nav id =  menu-H>
-            <ul>
-                <li><a target="_blank" href="pagina.html"> nav 01</a></li>
-                <li><a target="_blank" href="pagina.html">nav 02</a></li>
-                <li><a target="_blank" href="pagina.html">nav 03</a></li>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo do site" id="logo">
+        </a>
+        <nav>
+            <button id="btn-mobile"><img src="img/hamburger.png" alt="Icone Menu Hamburguer" id="hamburger"></button>
+            <ul id="menu">
+                <li><a href="index.html" class="item-menu">Home</a></li>
+                <li><a href="smartphones.html" class="item-menu">Smartphones</a></li>
+                <li><a href="tutoriais.html" class="item-menu">Tutoriais</a></li>
+                <li><a href="contato.html" class="item-menu">Contato</a></li>
+                <li><a href="equipe.html" class="item-menu">Equipe</a></li>
             </ul>
-        </nav>  
-            <h1>titulo</h1>
-              
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ducimus excepturi libero voluptatibus modi fuga, 
-                    fugiat sint, quibusdam soluta exercitationem consequatur accusantium, 
-                    totam atque delectus. Ipsum, in quo? Maxime, 
-                    temporibus soluta?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Fuga ipsum corporis dignissimos nam cupiditate vel rem rerum suscipit blanditiis a fugit nesciunt iure accusamus velit praesentium, 
-                    consectetur quaerat modi repellat.
-            </p>
-            <img src="/imagens techpunk/imagem generica.jpg" alt="imagem sobre o titulo">
-
-            <h1>últimas notícias</h1>
-            <nav id = ultimasnot>
-                <ul>
-                 <li><a target="_blank" href="titulo01">titulo 01</a></li>
-                 <li><a target="_blank" href="titulo02">titulo 02</a></li>
-                 <li><a target="_blank" href="titulo03">titulo 03</a></li>
-                </ul>
-            </nav>
-
-            <h1>noticias</h1>
-            <img src="/imagens techpunk/imagem generica.jpg" alt="imagem sobre noticia">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Debitis impedit quibusdam sapiente nihil necessitatibus porro neque aut doloribus qui dolore, 
-                unde pariatur amet sit cupiditate veritatis deleniti, 
-                consequatur inventore aliquam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Impedit possimus odio quos distinctio cumque. 
-                Quaerat maiores iusto vel amet beatae, ipsam esse voluptas temporibus sit, 
-                ea autem aliquid quibusdam! Adipisci!
-            </p>
-
-            <h1>temas da atualidade</h1>
-            <nav id="temasat">
-             <ul >
-                <li><a target="_blank" href="titulo01">titulo 01</a></li>
-                <li><a target="_blank" href="titulo02">titulo 02</a></li>
-                <li><a target="_blank" href="titulo03">titulo 03</a></li>
-                <li><a target="_blank" href="titulo04">titulo 04</a></li>
-                <li><a target="_blank" href="titulo05">titulo 05</a></li>
-                <li><a target="_blank" href="titulo06">titulo 06</a></li>
-             </ul>
-            </nav> 
-            
-            <footer>
-                <nav id="redes-s">
-                    <ul >
-                      <li><a target="_blank" href= https://www.facebook.com>facebook</a></li>
-                      <li><a target="_blank" href= https://www.instagram.com/>Instagram</a></li>
-                      <li><a target="_blank" href= https://www.linkedin.com>Linkedin</a></li>
-                    </ul>
-                   </nav>
-            </footer>
-        
+        </nav>
     </header>
+    <main class="main_">
+        <div id="textoprincipal">
+            <div id="carousel" class="carousel">
+                <div class="carousel-item"><img src="/img/percy2.jpg_large" title="Percy Jackson" alt="Percy Jackson"
+                        class="imgcont">
+                    <div class="txtcont">
+                        <h2 class="titulocont1">
+                            Série de Percy Jackson ganha teaser e data de lançamento
+                        </h2>
+                        <br>
+                        <p class="txtP" id="txtP1">
+                            Estrelada por Walker Scobell e Leah Sava Jeffries, adaptação do best-seller de Rick Riordan
+                            promete ser fiel ao eventos narrados nos livros e chega ao streaming em 20 de dezembro:
+                            confira o teaser <a target="_blank"
+                                href="https://www.youtube.com/watch?app=desktop&v=Kwv8-VejVgk&ab_channel=Disney%2BBrasil">
+                                aqui</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item"><img src="/img/sangsung.png" title="imagem sangsung" alt="imagem sangsung"
+                        class="imgcont">
+                    <div class="txtcont">
+                        <h2 class="titulocont2">
+                            Samsung vai oferecer tradução em tempo real de ligações
+                        </h2>
+                        <br>
+                        <p class="txtP" id="txtP2">
+                            O novo serviço será incorporado ao novo modelo Galaxy, o principal telefone da Samsung, que
+                            será lançado no início de 2024: <a target="_blank"
+                                href="https://www.youtube.com/watch?v=dSoO_Acup9c&ab_channel=PIXTVHD"> confira
+                                aqui</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item"><img src="/img/recruta.png" title="recruta.ai" alt="recruta.ai"
+                        class="imgcont">
+                    <div class="txtcont">
+                        <h2 class="titulocont3">
+                            Startup voltada ao mercado de trabalho é eleita a melhor HR Tech do Brasil
+                        </h2>
+                        <br>
+                        <p class="txtP" id="txtP3">
+                            A startup de inteligência artificial RECRUT.AI também saltou de 43º lugar para 12º no
+                            Ranking Top 100 em 2023: <a target="_blank" href="https://recrut.ai./"> confira aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <section class="ultimasnot">
+            <div class="noticia">
+                <img src="/img/Fortnite 2.jpg" title="Fortnite" class="imgnot">
+                <div class="txtimg">
+                    <br>
+                    <h1 class="titulo">
+                        <strong>
+                            <a
+                                href="https://www.bbc.com/portuguese/articles/ce9p1m7qr97o#:~:text=A%20Epic%20Games%2C%20empresa%20respons%C3%A1vel,ficarem%20presas%20em%20filas%20virtuais.">Recorde
+                                registrado pelo Fortnite OG com mais de 40 milhões de jogadores</a>
+                        </strong>
+                    </h1>
+                    <br>
+                    <p>
+                        A Epic Games, empresa responsável, diz que 44,7 milhões de jogadores registraram um total
+                        de 102 milhões de horas de jogo na nova temporada Fortnite OG no domingo (5/11).
+                        Isso apesar de algumas pessoas terem dificuldade para fazer login ou ficarem presas em filas
+                        virtuais.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <img src="/img/marte.png" title="imagem marte" class="imgnot">
+                <div class="txtimg">
+                    <br>
+                    <h1 class="titulo">
+                        <strong><a target="_blank"
+                                href="https://www.youtube.com/watch?v=KsBveF-PwAY&t=4s&ab_channel=NPGPress">Robô operado
+                                por I.A produz oxigênio com solo marciano</a>
+                        </strong>
+                    </h1>
+                    <br>
+                    <p>
+                        Pesquisadores internacionais desenvolveram um robô digno de ficção científica.
+                        Com a ajuda de inteligência artificial, a máquina foi capaz de produzir oxigênio
+                        a partir de meteoritos recolhidos em Marte.
+                        O feito poderá ter grande impacto nas futuras missões tripuladas para o planeta vermelho.
+                        Isso porque a produção de oxigênio a partir de recursos marcianos poderá tornar as viagens
+                        espaciais mais simples,
+                        econômicas e seguras.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <img src="/img/whatsapp.jpeg" title="imagem whatsapp" class="imgnot">
+                <div class="txtimg">
+                    <br>
+                    <h1 class="titulo">
+                        <strong><a target="_blank"
+                                href="https://g1.globo.com/tecnologia/noticia/2023/11/13/whatsapp-lanca-chats-por-voz-para-conectar-membros-de-grupo-veja-como-funciona.ghtml">WhatsApp
+                                lança chats por voz para conectar membros de grupo</a>
+                        </strong>
+                    </h1>
+                    <br>
+                    <p>
+                        Novo recurso, que é diferente da chamada em grupo,
+                        vai notificar a chamada na conversa. Assim, só participa quem está disponível,
+                        os contatos que não puderem entrar na chamada não serão surpreendidos com o toque de uma
+                        ligação.
+                        Objetivo é ter menos incômodos.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br>
+    </main>
+    <footer>
+        <p id="footer">&copy; Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
