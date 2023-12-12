@@ -1,5 +1,3 @@
-
-
 .body_ {
   display: flex;
   flex-direction: column;
@@ -112,7 +110,8 @@ h2:hover {
   }
 
   .txtcont {
-    margin-top: -40px; /*altura do texto no carrossel*/
+    margin-top: -40px;
+    /*altura do texto no carrossel*/
     font-size: 80%;
   }
 }
@@ -161,23 +160,28 @@ p:hover {
 
 /* responsividade ultimas noticias*/
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   .noticia {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 5px; /*espaçamento entre as notícias */
-    padding-bottom: 500px; /*espaço da area colorida */
-}
+    margin-bottom: 5px;
+    /*espaçamento entre as notícias */
+    padding-bottom: 480px;
+    /*espaço da area colorida */
+  }
 
   .imgnot {
-    width: 95%; /* largura do container */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-bottom: 10px; /* espaçamento das imagem */
-}
+    width: 95%;
+    /* largura do container */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-bottom: 10px;
+    /* espaçamento das imagem */
+  }
 
   .txtimg {
-    margin: 180px 100px 3px 0px ;
-}
+    margin: 195px 100px 3px 0px;
+  }
 }
