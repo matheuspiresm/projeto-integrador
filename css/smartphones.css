@@ -1,0 +1,96 @@
+.destaque {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  position: relative;
+  height: 400px;
+}
+
+.destaque:hover {
+  cursor: pointer;
+}
+
+.destaque__maior {
+  width: 50%;
+  margin: 2px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.destaque__menor {
+  width: 25%;
+  margin: 2px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.destaque__titulo {
+  position: absolute;
+  color: #fff;
+  bottom: 2%;
+  left: 2%;
+  font-size: 19px;
+}
+
+.destaque__menor__titulo {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+#materias {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 30px auto;
+  gap: 25px;
+  text-align: justify;
+}
+
+.materias__titulo {
+  font-size: 30px;
+  margin: 10px 0 0 0;
+}
+
+.materia__menor {
+  height: 130px;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+}
+
+.materia__menor:hover {
+  cursor: pointer;
+}
+
+.materia__titulo {
+  font-size: 15px;
+  position: absolute;
+  top: 20%;
+  left: 21%;
+  padding: 5px 15px;
+}
+
+.materia__texto {
+  font-size: 12px;
+  position: absolute;
+  top: 35%;
+  left: 21%;
+  padding: 15px;
+  font-weight: 200;
+}
+
+.materia__img {
+  width: 20%;
+  height: 100%;
+}
+
+.destaque__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.destaque__titulo:hover,
+.materia__titulo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
