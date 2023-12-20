@@ -50,3 +50,11 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
+input:focus {
+  background-color: gray;
+}
+
+.invalid {
+  border: 2px solid red;
+}
