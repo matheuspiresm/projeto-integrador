@@ -24,7 +24,7 @@ header {
 
 #logo {
   width: 150px;
-  margin: 3px 30px;
+  margin: 3px 200px 0 20px;
 }
 
 .item-menu {
@@ -38,6 +38,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 
 #menu a {
   display: block;
