@@ -1,5 +1,5 @@
 const membros = [
-    { nome: "Kaian", cidade: "Cidade-UF", avatar: "img/avatar-2.png", github: "https://github.com/", linkedin: "https://www.linkedin.com/" },
+    { nome: "Kaian", cidade: "Cidade-UF", avatar: "img/avatar-2.png", github: "https://github.com/kaianfreitas", linkedin: "https://www.linkedin.com/in/kaian-freitas-2b29b4ba/" },
     { nome: "Matheus", cidade: "Cidade-UF", avatar: "img/avatar-3.png", github: "https://github.com/matheuslpiresm", linkedin: "https://www.linkedin.com/in/matheuslpires/" }
 ];
 
