@@ -187,3 +187,58 @@ p:hover {
     text-decoration: none;
   }
 }
+
+.comments-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(201, 196, 196);
+  gap: 10px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+}
+
+#comment-input {
+  margin-top: 50px;
+  padding: 20px 100px;
+  position: relative;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 20px 80px;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+  gap: 5px;
+}
+
+.comment-actions {
+  margin-top: 5px;
+  color: rgb(173, 171, 171);
+}
+
+.like-btn,
+.dislike-btn {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#buttonC {
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 50px;
+  width: 100px;
+  font: bold15px arial, sans-serif;
+  text-shadow: none;
+}
