@@ -5,10 +5,18 @@ const btnMobile = document.getElementById("btn-mobile");
 
 function toggleMenu() {
   const nav = document.querySelector("nav");
+
+  // Adicione esta linha para verificar se a função está sendo chamada corretamente
+  console.log("Função toggleMenu chamada");
+
   nav.classList.toggle("active");
+
+  // Adicione esta linha para verificar se a classe está sendo adicionada/ removida corretamente
+  console.log("Classe 'active' adicionada/removida:", nav.classList.contains("active"));
 }
 
 btnMobile.addEventListener("click", toggleMenu);
+
 
 /*JS do carrossel*/
 
