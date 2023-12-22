@@ -9,14 +9,14 @@ const noticias = [
 
   {
     imagem: "img/materia-2.png",
-    titulo: "Xiaomi Redmi 12 5G é bom?",
-    descricao: "O Redmi 12 5G foi lançado globalmente em agosto deste ano, e chegou nas lojas brasileiras no fim de setembro. O modelo teve preço inicial sugerido de R$ 1.699,99. Hoje já é possível encontrá-lo por a partir de R$ 1.629 no varejo online. O smartphone da gigante chinesa se destaca pela enorme tela de 6,79 polegadas com resolução Full HD+, conjunto de câmeras de até 50 MP e processador eficiente da Qualcomm."
+    titulo: "Xiaomi Redmi 12 5G",
+    descricao: "O Redmi 12 5G foi lançado globalmente em agosto deste ano, e chegou nas lojas brasileiras no fim de setembro. O modelo teve preço inicial sugerido de R$ 1.699,99. Hoje já é possível encontrá-lo por a partir de R$ 1.629 no varejo online."
   },
 
   {
     imagem: "img/materia-3.png",
-    titulo: "7 motivos para você comprar um celular dobrável agora",
-    descricao: "Há várias razões pelas quais comprar um celular dobrável pode ser uma boa ideia. Isto porque eles oferecem uma tela grande que é ideal para assistir a vídeos, jogar games e trabalhar. A tela ampla também é ideal para multitarefa, pois permite que você visualize várias janelas ao mesmo tempo. E, quando dobrado, o celular é tão compacto quanto um smartphone tradicional, ou até mais."
+    titulo: "Celulares Dobráveis",
+    descricao: "Há várias razões pelas quais comprar um celular dobrável pode ser uma boa ideia. Isto porque eles oferecem uma tela grande que é ideal para assistir a vídeos, jogar games e trabalhar. A tela ampla também é ideal para multitarefa, pois permite que você visualize várias janelas ao mesmo tempo."
   }
 ];
 
