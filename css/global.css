@@ -22,9 +22,13 @@ header {
   overflow: hidden;
 }
 
+nav {
+  margin-left: 350px;
+}
+
 #logo {
   width: 150px;
-  margin: 3px 200px 0 20px;
+  margin-left: 20px;
 }
 
 .item-menu {
