@@ -2,8 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 15px;
+  margin: 20px;
 }
 
 #contato {
@@ -49,6 +48,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+  margin-top: 50px;
 }
 
 input:focus {
