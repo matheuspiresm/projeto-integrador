@@ -1,4 +1,3 @@
-console.log("wassup");
 
 /*JS do menu*/
 
